@@ -7,10 +7,13 @@ Ein persönliches Portfolio, entwickelt mit [Vue 3](https://vuejs.org/) und [Vit
 - Projekte-Bereich (mit JSON-Daten)
 - Kontaktformular
 - Responsives Design
+- Animierte Landing Page mit Parallax-Effekten (Tailwind CSS + Motion One)
 
 ## Tech-Stack
 - [Vue 3](https://vuejs.org/)
 - [Vite](https://vitejs.dev/)
+- [Motion One](https://motion.dev/) (Animationen)
+- [VueUse](https://vueuse.org/) (Hilfsfunktionen)
 - HTML, CSS, JavaScript
 
 ## Installation & Nutzung
@@ -26,3 +29,10 @@ Ein persönliches Portfolio, entwickelt mit [Vue 3](https://vuejs.org/) und [Vit
 3. Development-Server starten:
     ```bash
     npm run dev
+
+## Troubleshooting
+1. Node-Version
+Mit der neuen Node-Version kann es unter Windows zu Problemen mit der Tailwind-CLI kommen. 
+Lösung: Tailwind v3 installieren
+    ```bash
+    npm install -D tailwindcss@3

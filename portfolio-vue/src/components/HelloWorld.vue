@@ -9,6 +9,9 @@ const count = ref(0)
 </script>
 
 <template>
+
+  <div class="p-6 text-emerald-500">Tailwind ist aktiv ✅</div>
+  
   <h1>{{ msg }}</h1>
 
   <div class="card">
